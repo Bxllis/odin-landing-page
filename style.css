@@ -1,0 +1,23 @@
+.navigation {
+    background-color: orange;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+ul {
+    float: right;
+    text-align: center;
+    padding: 10px 100px;
+}
+
+li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 2px;
+    text-decoration: none;
+}
