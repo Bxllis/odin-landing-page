@@ -84,9 +84,59 @@ nav {
     border-radius: 20px;
 }
 
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
 
+.quote {
+    margin: 0px 500px;
+}
 
-h1, h2, h3 {
+.quote-author {
+    text-align: right;
+}
+
+.cta-section {
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content:center;
+}
+
+.cta-area {
+    height: 100px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.cta-left {
+    padding: 0px 20px;
+}
+
+.cta-right {
+    padding: 0px 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1, h2, h3, h4, p {
     padding: 0px;
     margin: 0px;
 }
