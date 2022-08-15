@@ -1,23 +1,58 @@
-.navigation {
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    width: 100%;
     background-color: orange;
-    overflow: hidden;
+    padding: 0px;
 }
 
-.logo {
-    float: left;
-    text-align: center;
-    padding: 10px 100px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul {
-    float: right;
-    text-align: center;
-    padding: 10px 100px;
+.nav-logo {
+    padding-left: 200px;
 }
-
-li {
-    display: inline-block;
-    text-align: center;
-    margin: 10px 2px;
+.nav-links {
+    display: flex;
     text-decoration: none;
+    list-style: none;
+    padding-right: 200px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: red;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+}
+
+.hero-left {
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.hero-right {
+    padding-right: 200px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
 }
