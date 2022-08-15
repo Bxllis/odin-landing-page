@@ -67,6 +67,7 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: green;
+    margin: 0px 300px;
 }
 
 .info-square {
@@ -76,8 +77,7 @@ nav {
     display: flex;
     flex-direction: column;
     background-color: purple;
-    margin: 0px 25px;
-    padding: 0px 50px;
+    margin: 0px 25px 0px 25px;
 }
 
 .info-square img {
